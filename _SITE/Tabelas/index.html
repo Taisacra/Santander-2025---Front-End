@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRabalhando com tabelas - DIO.me</title>
+    <style>
+        table {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+
+        table thead th {
+            background-color: brown;
+            color: white;
+        }
+
+        table tfoot td {
+            background-color: lightgray;
+        }
+
+        table tbody tr:nth-child(even) td {
+            background-color: rgb(206, 206, 204);
+        }
+
+        table tbody tr:hover td {
+            background-color: rgb(153, 153, 153);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table summary="Resumo dos dados que tem na tabela" width= "250" align="center" cellspacing="0" cellpadding="5">
+        <caption>Tabela de idades dos alunos Dio.me</caption><!--Descrição da tabela-->
+
+        <thead><!--Para cabeçalho-->
+            <tr>
+                <!-- colspan -> mescla as celulas horizontal
+                rowspan -> mecla celulas na vertical de cima para baixo-->
+                <th colspan="2">Minha tabela</th>
+            </tr>
+            <tr> <!--linha Agrupa celulas-->
+                <!--Identifica como cabecalho-->
+                <th title="Nome completo">Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody><!--Corpo da tabela-->
+            <tr>
+                <!--Coluna-->
+                <td>Tainá</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Mariana</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Camila</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Ana Clara</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+        <tfoot><!--rodapé da tablela-->
+            <td>Total</td>
+            <td>5</td>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,49 @@
+TAGS HTML - Semântica
+	Servem para dar significado à estrutura de uma página, tanto para o navegador quanto para o desenvolvedor e ferramentas de busca.
+Essas tags descrevem o tipo de conteúdo que elas contêm, tornando o código mais legível, acessível e otimizado para SEO
+
+
+Main
+<main>: Representa o conteúdo principal e único do documento. Só deve haver um por página.
+
+Header
+<header>: Contém conteúdo introdutório ou um grupo de links de navegação. Geralmente inclui o título do site, logotipos, barra de pesquisa e navegação primária. Pode haver múltiplos <header> em uma página, como um para cada <article> ou <section>.
+
+Footer
+<footer>: Contém informações de rodapé para o seu elemento pai. Isso geralmente inclui informações de direitos autorais, links para termos de serviço, política de privacidade, informações de contato e navegação secundária.
+
+Aside 
+<aside>: Representa uma seção do documento cujo conteúdo é indiretamente relacionado ao conteúdo principal. Pense em barras laterais com links relacionados, biografias do autor ou blocos de publicidade.
+
+Section 
+<section>: Representa uma seção genérica de conteúdo dentro de um documento. Deve ser usada para agrupar conteúdo tematicamente relacionado, e geralmente possui um título próprio (h1-h6).
+
+Nav
+<nav>: Contém links de navegação importantes. É ideal para o menu principal do site, mas também pode ser usada para navegação interna em uma seção específica.
+
+Article - Artigo
+<article>: Representa um conteúdo independente e autocontido. Pode ser um post de blog, uma notícia, um comentário de usuário ou um item de fórum.
+
+Blockquote 
+<blockquote>: Usado para citar um bloco de texto longo de outra fonte. Geralmente é renderizado com recuo.
+
+Q
+<q>: Usado para citar uma citação curta em linha, geralmente renderizada com aspas.
+
+Figure
+<figure>: Usado para encapsular conteúdo independente, como imagens, ilustrações, diagramas, vídeos ou blocos de código.
+
+Figcaption
+<figcaption>: Fornece uma legenda ou descrição para o conteúdo dentro de um <figure>.
+
+Picture
+<picture>: Permite que você defina múltiplas fontes de imagem para diferentes cenários (por exemplo, diferentes tamanhos de tela ou formatos de imagem), e o navegador seleciona a mais apropriada.
+
+
+
+
+Pesquisar mais >> Web Scraping
+Web scraping é a técnica de extrair dados de websites de forma automatizada. Em vez de copiar e colar informações manualmente, que seria inviável para grandes volumes de dados, o web scraping utiliza programas ou scripts para "ler" o código HTML das páginas e coletar as informações desejadas.
+
+Pense nisso como um robô que visita uma página da web, identifica os elementos onde as informações estão (como preços de produtos, nomes de notícias, endereços de e-mail) e então as salva em um formato estruturado, como uma planilha, banco de dados ou arquivo JSON.
+
